@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.10"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="103dp"
+            android:text="New Text"
+            android:id="@+id/name"
+            android:layout_weight="1.24" />
+
+        <TextView
+            android:layout_width="218dp"
+            android:layout_height="111dp"
+            android:text="New Text"
+            android:id="@+id/score" />
+    </LinearLayout>
+</LinearLayout><!-- From: file:/H:/Mobile%20App/MyApplication/app/src/main/res/layout/score_row.xml -->

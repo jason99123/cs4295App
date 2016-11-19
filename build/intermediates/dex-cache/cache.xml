@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Noob\Desktop\Project_18_11_V2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="299e3d73a5db5d8438679b7f47ccc400e2e524ab">
+        <dex dex="C:\Users\Noob\Desktop\Project_18_11_V2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_83baf02b1585f591b6c26274d040148938b0ede1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Noob\.gradle\caches\modules-2\files-2.1\uk.com.robust-it\cloning\1.9.3\543bce6b30867ebccc79956528d4c46f0e491735\cloning-1.9.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="543bce6b30867ebccc79956528d4c46f0e491735">
+        <dex dex="C:\Users\Noob\Desktop\Project_18_11_V2\app\build\intermediates\transforms\dex\debug\folders\1000\10\cloning-1.9.3_831cccbf269390c19c34af2f5c856788a0b2a272\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Noob\Desktop\Project_18_11_V2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Noob\Desktop\Project_18_11_V2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-21.0.3_87ecc3e30f494fe0fd83c3f5a7cb92c0c19ceced\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Noob\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\Noob\Desktop\Project_18_11_V2\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-21.0.3_75372aef911be8caa3f60b0dd2d74d5b93aa3c31\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Noob\Desktop\Project_18_11_V2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="f03d8c96ace7869b685f4481f7f2afcf9d65ef53">
+        <dex dex="C:\Users\Noob\Desktop\Project_18_11_V2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_4bee177edc974fb36fa6eca20163b408aba6d869\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Noob\.gradle\caches\modules-2\files-2.1\org.objenesis\objenesis\2.1\87c0ea803b69252868d09308b4618f766f135a96\objenesis-2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="87c0ea803b69252868d09308b4618f766f135a96">
+        <dex dex="C:\Users\Noob\Desktop\Project_18_11_V2\app\build\intermediates\transforms\dex\debug\folders\1000\10\objenesis-2.1_bdf831dbc9f0d6e4477ba8441bff84c456fe7145\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Noob\Desktop\Project_18_11_V2\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Noob\Desktop\Project_18_11_V2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-21.0.3_92b12070c9886c4e3928f132dd2c5a713c7b425d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Noob\Desktop\Project_18_11_V2\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Noob\Desktop\Project_18_11_V2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-21.0.3_f87cc46c52d0c445789226c92eeb07bbe2021b05\classes.dex" />
+    </item>
+
+</items>

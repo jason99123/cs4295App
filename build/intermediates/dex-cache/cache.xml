@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\chokilo3\Desktop\Project_25_11_V4\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\chokilo3\Desktop\Project_25_11_V4\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3_cc71eebed252731e2fe33f50996170217e957bd3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\Android Studio\cs4295\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\chokilo3\Desktop\Project_25_11_V4\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3_3bfc778e5faf4f348559f4843c565de37b06309b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\chokilo3\Desktop\Project_25_11_V4\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\chokilo3\Desktop\Project_25_11_V4\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-21.0.3_210663717d6df1a755b18995499da87d70f274e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\chokilo3\.gradle\caches\modules-2\files-2.1\uk.com.robust-it\cloning\1.9.3\543bce6b30867ebccc79956528d4c46f0e491735\cloning-1.9.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="543bce6b30867ebccc79956528d4c46f0e491735">
+        <dex dex="C:\Users\chokilo3\Desktop\Project_25_11_V4\app\build\intermediates\pre-dexed\debug\cloning-1.9.3_ded2c26e63a2bbb061e9b6803b8002b7995b2404.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\chokilo3\.gradle\caches\modules-2\files-2.1\org.objenesis\objenesis\2.1\87c0ea803b69252868d09308b4618f766f135a96\objenesis-2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="87c0ea803b69252868d09308b4618f766f135a96">
+        <dex dex="C:\Users\chokilo3\Desktop\Project_25_11_V4\app\build\intermediates\pre-dexed\debug\objenesis-2.1_b44009adcdf5b32328735cc46b7ad96c0f866b20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\chokilo3\Desktop\Project_25_11_V4\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\chokilo3\Desktop\Project_25_11_V4\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-21.0.3_3f60f8b644ad25809d7e86f87f655c3171feb156.jar" />
+    </item>
+
+</items>

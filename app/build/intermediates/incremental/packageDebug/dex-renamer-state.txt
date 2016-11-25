@@ -1,0 +1,4 @@
+#Fri Nov 25 16:31:38 CST 2016
+base.0=C\:\\Users\\chokilo3\\Desktop\\Project_25_11_V4\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\chokilo3\\Desktop\\Project_25_11_V4\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

@@ -2,58 +2,76 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="C:\Users\chokilo3\Desktop\Project_25_11_V4\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Noob\Desktop\App\cs4295App\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
         optimize="true"
         revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="C:\Users\chokilo3\Desktop\Project_25_11_V4\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3_cc71eebed252731e2fe33f50996170217e957bd3.jar" />
+        sha1="d49d05846aed8e1d3157b5cf66870a2620b77635">
+        <dex dex="C:\Users\Noob\Desktop\App\cs4295App\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_fa384e9f650edfe7a486b1690583245a8ede832f\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="G:\Android Studio\cs4295\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Noob\Desktop\App\cs4295App\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
         optimize="true"
         revision="21.1.2"
-        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="C:\Users\chokilo3\Desktop\Project_25_11_V4\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3_3bfc778e5faf4f348559f4843c565de37b06309b.jar" />
+        sha1="c09f4a4f01fd1def12a339fbfe04319e18290d6b">
+        <dex dex="C:\Users\Noob\Desktop\App\cs4295App\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_eaef7f35e000992cffed1b4ee44841ee384922a2\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\chokilo3\Desktop\Project_25_11_V4\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="21.1.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="C:\Users\chokilo3\Desktop\Project_25_11_V4\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-21.0.3_210663717d6df1a755b18995499da87d70f274e8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\chokilo3\.gradle\caches\modules-2\files-2.1\uk.com.robust-it\cloning\1.9.3\543bce6b30867ebccc79956528d4c46f0e491735\cloning-1.9.3.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Noob\.gradle\caches\modules-2\files-2.1\uk.com.robust-it\cloning\1.9.3\543bce6b30867ebccc79956528d4c46f0e491735\cloning-1.9.3.jar"
+        jumboMode="true"
         optimize="true"
         revision="21.1.2"
         sha1="543bce6b30867ebccc79956528d4c46f0e491735">
-        <dex dex="C:\Users\chokilo3\Desktop\Project_25_11_V4\app\build\intermediates\pre-dexed\debug\cloning-1.9.3_ded2c26e63a2bbb061e9b6803b8002b7995b2404.jar" />
+        <dex dex="C:\Users\Noob\Desktop\App\cs4295App\app\build\intermediates\transforms\dex\debug\folders\1000\10\cloning-1.9.3_831cccbf269390c19c34af2f5c856788a0b2a272\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\chokilo3\.gradle\caches\modules-2\files-2.1\org.objenesis\objenesis\2.1\87c0ea803b69252868d09308b4618f766f135a96\objenesis-2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="21.1.2"
-        sha1="87c0ea803b69252868d09308b4618f766f135a96">
-        <dex dex="C:\Users\chokilo3\Desktop\Project_25_11_V4\app\build\intermediates\pre-dexed\debug\objenesis-2.1_b44009adcdf5b32328735cc46b7ad96c0f866b20.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\chokilo3\Desktop\Project_25_11_V4\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Noob\Desktop\App\cs4295App\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="21.1.2"
         sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="C:\Users\chokilo3\Desktop\Project_25_11_V4\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-21.0.3_3f60f8b644ad25809d7e86f87f655c3171feb156.jar" />
+        <dex dex="C:\Users\Noob\Desktop\App\cs4295App\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-21.0.3_fdb7162d204d63fd2f12a8c2299fefa84a5ca6a5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Noob\Desktop\App\cs4295App\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Noob\Desktop\App\cs4295App\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-21.0.3_7bf39ae0140c267d556624774b382a1d2b364282\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Noob\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\Noob\Desktop\App\cs4295App\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-21.0.3_75372aef911be8caa3f60b0dd2d74d5b93aa3c31\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Noob\.gradle\caches\modules-2\files-2.1\org.objenesis\objenesis\2.1\87c0ea803b69252868d09308b4618f766f135a96\objenesis-2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="87c0ea803b69252868d09308b4618f766f135a96">
+        <dex dex="C:\Users\Noob\Desktop\App\cs4295App\app\build\intermediates\transforms\dex\debug\folders\1000\10\objenesis-2.1_bdf831dbc9f0d6e4477ba8441bff84c456fe7145\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Noob\Desktop\App\cs4295App\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Noob\Desktop\App\cs4295App\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-21.0.3_87b485c448dbc2f2786e35e2d941b4a34717ca6b\classes.dex" />
     </item>
 
 </items>

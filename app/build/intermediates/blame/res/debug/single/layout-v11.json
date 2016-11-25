@@ -1,10 +1,6 @@
 [
     {
-        "merged": "C:\\Users\\chokilo3\\Desktop\\Project_25_11_V4\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\abc_screen_content_include.xml",
-        "source": "C:\\Users\\chokilo3\\Desktop\\Project_25_11_V4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout-v11\\abc_screen_content_include.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator.PCMAJIN\\Desktop\\Project_18_11_V3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\abc_screen_content_include.xml",
-        "source": "C:\\Users\\Administrator.PCMAJIN\\Desktop\\Project_18_11_V3\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout-v11\\abc_screen_content_include.xml"
+        "merged": "C:\\Users\\Noob\\Desktop\\App\\cs4295App\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\Noob\\Desktop\\App\\cs4295App\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout-v11\\abc_screen_content_include.xml"
     }
 ]

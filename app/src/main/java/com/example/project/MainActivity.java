@@ -129,10 +129,11 @@ public class MainActivity extends Activity{
             setCenterSquare();
             sm.registerListener(this, am, sm.SENSOR_DELAY_NORMAL);
             centerRect = new MovingRectangle(left,top,right,bottom, centerPaint);
-            movingRectFromLeft = new MovingRectangle(0, top+10, 0 + (canvasSetting.getRectWidth()/4), bottom-10, leftPaint);
-            movingRectFromRight = new MovingRectangle((canvasSetting.getCanvasWidth()-(canvasSetting.getRectWidth()/4)), top+10, canvasSetting.getCanvasWidth(), bottom-10, rightPaint);
-            movingRectFromTop = new MovingRectangle((canvasSetting.getCenterPointX()-(canvasSetting.getRectWidth()/2))+10, 0, (canvasSetting.getCenterPointX()+(canvasSetting.getRectWidth()/2))-10, canvasSetting.getRectHeight()/4, topPaint);
-            movingRectFromBottom = new MovingRectangle((canvasSetting.getCenterPointX()-(canvasSetting.getRectWidth()/2))+10, canvasSetting.getCanvasHeight()-(canvasSetting.getRectHeight()/4), (canvasSetting.getCenterPointX()+(canvasSetting.getRectWidth()/2))-10, canvasSetting.getCanvasHeight(), bottomPaint);
+            RandomPaint rp = new RandomPaint();
+            movingRectFromLeft = new MovingRectangle(0, top+10, 0 + (canvasSetting.getRectWidth()/4), bottom-10, rp.getRandomPaint());
+            movingRectFromRight = new MovingRectangle((canvasSetting.getCanvasWidth()-(canvasSetting.getRectWidth()/4)), top+10, canvasSetting.getCanvasWidth(), bottom-10, rp.getRandomPaint());
+            movingRectFromTop = new MovingRectangle((canvasSetting.getCenterPointX()-(canvasSetting.getRectWidth()/2))+10, 0, (canvasSetting.getCenterPointX()+(canvasSetting.getRectWidth()/2))-10, canvasSetting.getRectHeight()/4, rp.getRandomPaint());
+            movingRectFromBottom = new MovingRectangle((canvasSetting.getCenterPointX()-(canvasSetting.getRectWidth()/2))+10, canvasSetting.getCanvasHeight()-(canvasSetting.getRectHeight()/4), (canvasSetting.getCenterPointX()+(canvasSetting.getRectWidth()/2))-10, canvasSetting.getCanvasHeight(), rp.getRandomPaint());
 
             animatedRectangleList.add(movingRectFromLeft);
             animatedRectangleList.add(movingRectFromRight);
@@ -255,35 +256,32 @@ public class MainActivity extends Activity{
                     if (!mr.intersect(triangleBoundary)) {
                         canvas.drawRect(mr, mr.getPaint());
                         canvas.drawRect(triangleBoundary, topPaint);
-                    } else {
+                    }
+                    else if (mr.intersect(triangleBoundary) && mr.getIsCollied())
+                    {
+                        continue;
+                    }
+                    else
+                    {
                         if(String.valueOf(mr.getPaint().getColor()).equals(String.valueOf(triangleBoundary.getPaint().getColor())))
                         {
                             mr.setIsCollied(true);
-                            canvas.drawRect(mr, mr.getPaint());
                             //System.out.println("Color code: "+String.valueOf(mr.getPaint().getColor())+", "+String.valueOf(triangleBoundary.getPaint().getColor()));
                             if (!mr.isScored()) {
                                 scoreCount += 100;
                             }
-                                mr.setScored(true);
+                            mr.setScored(true);
                             //rectangleCounter -= 1;
                         }
                         else
                         {
                             mr.setIsCollied(true);
-                            canvas.drawRect(mr, mr.getPaint());
+
                             if(!isReadDB) {
                                 readDB();
                             }
                             isReadDB = true;
                         }
-                        /*
-                        if (singleCounter == 0) {
-                            canvas.drawRect(mr, centerPaint);
-                            Toast.makeText(MainActivity.this, "Intersected!!!", Toast.LENGTH_SHORT)
-                                    .show();
-                            singleCounter++;
-                        }
-                        */
                     }
                 }
             }
@@ -316,7 +314,7 @@ public class MainActivity extends Activity{
                 }
             });
             rectAnimation.playTogether(animateLeft, animateRight, animateTop, animateBottom);
-            rectAnimation.setDuration(50000).start();
+            rectAnimation.setDuration(60000).start();
         }
 
         protected void setupAnimateFromRight(final MovingRectangle animatedRect){
@@ -337,6 +335,7 @@ public class MainActivity extends Activity{
                     if(animatedRect.getIsCollied())
                     {
                         rectAnimation.cancel();
+
                     }
                     else
                     {
@@ -346,7 +345,7 @@ public class MainActivity extends Activity{
             });
 
             rectAnimation.playTogether(animateLeft, animateRight, animateTop, animateBottom);
-            rectAnimation.setDuration(5000).start();
+            rectAnimation.setDuration(8000).start();
         }
 
         protected void setupAnimateFromLeft(final MovingRectangle animatedRect){
@@ -375,7 +374,7 @@ public class MainActivity extends Activity{
                 }
             });
             rectAnimation.playTogether(animateLeft, animateRight, animateTop, animateBottom);
-            rectAnimation.setDuration(5000).start();
+            rectAnimation.setDuration(8000).start();
         }
 
         protected void setupAnimateFromTop(final MovingRectangle animatedRect){
@@ -405,7 +404,7 @@ public class MainActivity extends Activity{
             });
 
             rectAnimation.playTogether(animateLeft, animateRight, animateTop, animateBottom);
-            rectAnimation.setDuration(5000).start();
+            rectAnimation.setDuration(8000).start();
         }
 
         protected void setupAnimateFromBottom(final MovingRectangle animatedRect){
@@ -435,7 +434,7 @@ public class MainActivity extends Activity{
             });
 
             rectAnimation.playTogether(animateLeft, animateRight, animateTop, animateBottom);
-            rectAnimation.setDuration(5000).start();
+            rectAnimation.setDuration(8000).start();
         }
 
         @Override
@@ -448,14 +447,14 @@ public class MainActivity extends Activity{
 
                 long curTime = System.currentTimeMillis();
 
-                if ((curTime - lastUpdate)>500) {
+                if ((curTime - lastUpdate)>1000) {
                     long diffTime = (curTime - lastUpdate);
                     lastUpdate = curTime;
                     float x = event.values[0];
                     float y = event.values[1];
                     float z = event.values[2];
 
-                    float speed = Math.abs(x + y + z - last_x - last_y - last_z) / diffTime * 30000;
+                    float speed = Math.abs(x + y + z - last_x - last_y - last_z) / diffTime * 10000;
 
                     if (speed > SHAKE_THRESHOLD) {
 
@@ -516,7 +515,7 @@ public class MainActivity extends Activity{
 
         DB.execSQL("CREATE TABLE IF NOT EXISTS scores (name TEXT, score TEXT);");
 
-        Cursor cursor = DB.rawQuery("SELECT * FROM scores", null);
+        Cursor cursor = DB.rawQuery("SELECT * FROM scores ORDER BY score DESC", null);
         // add one entry example
         DB.execSQL("INSERT INTO scores (name, score) VALUES ('"+PLAYER_NAME+"','"+String.valueOf(scoreCount)+"');");
         setContentView(R.layout.activity_main);
@@ -524,7 +523,7 @@ public class MainActivity extends Activity{
         adapter = new CustomListAdapter(this, item);
         listView.setAdapter(adapter);
 
-        cursor = DB.rawQuery("SELECT * FROM scores", null);
+        cursor = DB.rawQuery("SELECT * FROM scores ORDER BY score DESC", null);
 
         // display the scoreboard
         if (cursor.moveToFirst()) {
@@ -543,5 +542,11 @@ public class MainActivity extends Activity{
             }
         }
         adapter.notifyDataSetChanged();
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+
     }
 }
